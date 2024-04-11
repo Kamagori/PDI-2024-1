@@ -47,7 +47,7 @@ def mouse_callback(event, x, y, flags, param):
             fechar_imagem = True
 
 # Carrega a imagem do disco
-img = cv2.imread('Pratica4/lena.png')
+img = cv2.imread('Pratica4/images/lena.png')
 # Converte a imagem para tons de cinza
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # Cria uma janela para exibir a imagem
