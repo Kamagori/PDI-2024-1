@@ -49,7 +49,7 @@ while True:
             cv2.waitKey(30)
 
     # Exit if 'q' is pressed
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(0):
         break
 
 # Release the webcam and close all windows
